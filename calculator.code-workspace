@@ -6,7 +6,7 @@
   ],
   "settings": {
     "prettier.configPath": ".prettierrc",
-    // "prettier.prettierPath": "./node_modules/prettier",
+    "prettier.prettierPath": "./node_modules/prettier",
     "files.associations": {
       "*.css": "tailwindcss",
       "*.scss": "tailwindcss"
@@ -14,11 +14,6 @@
     "editor.quickSuggestions": {
       "strings": true
     },
-    "tailwindCSS.classAttributes": [
-      "class",
-      "className",
-      "ngClass"
-    ],
     "tailwindCSS.emmetCompletions": true
   }
 }
