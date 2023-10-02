@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "formulahendry.auto-rename-tag",
+    "idered.npm",
+    "christian-kohler.npm-intellisense",
+    "bradlc.vscode-tailwindcss"
+  ]
+}
