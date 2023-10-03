@@ -40,6 +40,8 @@ function DigitButton({
       event.stopPropagation()
 
       if (event.key === KEYS_MAP[digit]) {
+        event.preventDefault()
+
         dispatch({ type: 'add-digit', digit })
 
         setClicked(true)
